@@ -190,3 +190,110 @@ body {
     padding: 2em 0;
     text-align: center;
 }
+
+@media screen and (min-width: 768px){
+    .main {
+        background-image: url('./images/bg-hero-desktop.svg');
+    }
+
+    .cards-container {
+        width: 90%;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .card img{
+        width: 50%;
+    }
+
+    .card .card-info{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2em;
+    }
+
+    .card-1,
+    .card-3{
+        flex-direction: row-reverse;
+    }
+
+    .footer-info {
+        display: flex;
+    }
+
+    .footer .contact {
+        width: 40%;
+    }
+
+    .footer .info-container {
+        width: 40%;
+        margin: 0 30px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer .info-container .info-1,
+    .footer .info-container .info-2{
+        width: 50%;
+    }
+
+    .footer .social-networks {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .hero {
+        max-width: 90vw;
+        display: flex;
+        flex-direction: row;
+        font-size: 32px;
+    }
+
+    .hero .hero-left-top {
+        width: 45%;
+        text-align: left;
+        padding-right: 5%;
+        margin: auto 0;
+    }
+
+    .hero button {
+        width: 55%;
+    }
+
+    .hero img {
+        width: 55%;
+    }
+
+    .cards-container {
+        font-size: 28px;
+    }
+
+    .footer {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .hero {
+        max-width: 90vw;
+        display: flex;
+        flex-direction: row;
+        font-size: 40px;
+    }
+
+    .cards-container {
+        font-size: 32px;
+    }
+
+    .footer {
+        font-size: 22px;
+    }
+}
