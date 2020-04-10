@@ -141,7 +141,6 @@ body {
 
 .footer-container .logo-footer {
     height: 2em;
-    /* padding-top: 5em 0; */
     margin-top: 3em;
 }
 
@@ -151,7 +150,6 @@ body {
 }
 
 .footer .contact-image {
-    border: 1px solid red;
     width: 10%;
 }
 
